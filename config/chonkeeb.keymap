@@ -172,6 +172,11 @@
             layers = <0>;
             timeout-ms = <50>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 11>;
+        };
     };
 
     behaviors {
